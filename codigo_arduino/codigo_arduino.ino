@@ -42,7 +42,7 @@ int estadoActual = 0;
 int pinVerde = 5;
 int pinAmarilla = 6;
 int pinRoja = 7;
-int pinAzul = 8;
+int pinAzul = 10;
 int pinBlanca = 9;
 
 // pin de Arduino para boton
