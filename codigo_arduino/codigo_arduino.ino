@@ -71,7 +71,9 @@ void setup() {
     // hay 5 notas
     // cada nota prendera una luz distinta
 
-    if (melodia[nota] == NOTA_DO6)  { 
+
+
+    if (melodia[nota] == NOTA_DO6)  {
       prenderLuz(pinRoja, tiempoRoja);
     }  else if (melodia[nota] == NOTA_SOL5)  {
       prenderLuz(pinAmarilla, tiempoAmarilla);
@@ -83,16 +85,16 @@ void setup() {
       prenderLuz(pinBlanca, tiempoBlanca);
     }
 
-  // pausa entre notas
-  int pausa = duracionNota * multiplicadorPausa;
+    // pausa entre notas
+    int pausa = duracionNota * multiplicadorPausa;
 
-  // pausar para mantener nota
-  delay(pausa);
+    // pausar para mantener nota
+    delay(pausa);
 
-  // silenciar nota
-  noTone(pinParlante);
+    // silenciar nota
+    noTone(pinParlante);
 
-}
+  }
 
   // iniciar comunicacion serial
   Serial.begin(9600);
@@ -103,10 +105,25 @@ void setup() {
   pinMode(pinRoja, OUTPUT); // roja
   pinMode(pinAzul, OUTPUT); // azul
   pinMode(pinBlanca, OUTPUT); // blanco
-
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
 
+}
+
+// funcion para apagar todas las luces
+void apagarLuces() {
+  digitalWrite(pinVerde, LOW);
+  digitalWrite(pinAmarilla, LOW);
+  digitalWrite(pinRoja, LOW);
+  digitalWrite(pinAzul, LOW);
+  digitalWrite(pinBlanca, LOW);
+}
+
+// funcion para prender una luz durante un momento
+void prenderLuz(int color, int tiempoEncendido) {
+  apagarLuces();
+  digitalWrite(color, HIGH);
+  delay(tiempoEncendido);
 }
