@@ -30,6 +30,34 @@ int multiplicadorDuracion = 2;
 float multiplicadorPausa = 2;
 int pinParlante = 8;
 
+
+// 0 es luz roja
+// 1 es luz amarilla
+// 2 es luz verde
+// 3 es luz azul
+// 4 es luz blanca
+int estadoActual = 0;
+
+// pines de Arduino para cada luz
+int pinVerde = 5;
+int pinAmarilla = 6;
+int pinRoja = 7;
+int pinAzul = 8;
+int pinBlanca = 9;
+
+// pin de Arduino para boton
+int pinBoton = 4;
+
+// variable que almacena valor actual boton
+int valorBoton = 0;
+
+// tiempo de cada luz
+int tiempoRoja = 300;
+int tiempoAmarilla = 300;
+int tiempoVerde = 300;
+int tiempoAzul = 300;
+int tiempoBlanca = 300;
+
 void setup() {
 
   for (int nota = 0; nota < 26 ; nota++) {
@@ -43,16 +71,16 @@ void setup() {
     // hay 5 notas
     // cada nota prendera una luz distinta
 
-    if (melodia[nota] == NOTA_DO6)  {
-      // prender luz roja
-    }  else if (melodia[nota] == NOTA_RE6)  {
-      // prender luz verde
+    if (melodia[nota] == NOTA_DO6)  { 
+      prenderLuz(pinRoja, tiempoRoja);
+    }  else if (melodia[nota] == NOTA_SOL5)  {
+      prenderLuz(pinAmarilla, tiempoAmarilla);
     }   else if (melodia[nota] == NOTA_RE6)  {
-      // prender luz verde
-    }   else if (melodia[nota] == NOTA_RE6)  {
-      // prender luz verde
-    }   else if (melodia[nota] == NOTA_RE6)  {
-      // prender luz verde
+      prenderLuz(pinVerde, tiempoVerde);
+    }   else if (melodia[nota] == NOTA_SI5)  {
+      prenderLuz(pinAzul, tiempoAzul);
+    }   else if (melodia[nota] == NOTA_LA5)  {
+      prenderLuz(pinBlanca, tiempoBlanca);
     }
 
   // pausa entre notas
@@ -65,6 +93,16 @@ void setup() {
   noTone(pinParlante);
 
 }
+
+  // iniciar comunicacion serial
+  Serial.begin(9600);
+
+  // configurar pines de luces como salida
+  pinMode(pinVerde, OUTPUT); // verde
+  pinMode(pinAmarilla, OUTPUT); // amarillo
+  pinMode(pinRoja, OUTPUT); // roja
+  pinMode(pinAzul, OUTPUT); // azul
+  pinMode(pinBlanca, OUTPUT); // blanco
 
 }
 
