@@ -1,6 +1,6 @@
 # clase-09-proyecto-mitad-semestre
 
-## intsrucciones
+## instrucciones
 
 * hacer login en GitHub.com
 * entrar a este repositorio disponible en [https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre](https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre)
@@ -48,6 +48,8 @@ para incluir imágenes que sean visibles en este documento, es igual que un enla
 ## borrador de muestra
 
 a continuación les dejo un breve borrador con ejemplos, que si completan, tendrán todos los puntos de la pauta, suerte!
+
+# proyecto audiovisual / villancico con luces de navidad
 
 ## acerca de
 
