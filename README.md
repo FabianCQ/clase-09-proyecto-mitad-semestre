@@ -53,17 +53,18 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 
 este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.
 
-los integrantes son X, Y, Z.
+Antonia Ramírez
+Fabián Campos Q
+Cristina Chamorro
 
 ## lista de materiales
 
 los materiales son:
 
 * Arduino Uno
-* protoboard
-* cables
-* potenciómetro
-* etc
+* Protoboard
+* Cables
+* Potenciómetro
 
 ## armado de circuito
 
