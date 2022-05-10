@@ -62,9 +62,11 @@ Cristina Chamorro
 los materiales son:
 
 * Arduino Uno
-* Protoboard
-* Cables
-* Potenciómetro
+* protoboard
+* cables
+* parlante
+* luces
+* resistores
 
 ## armado de circuito
 
