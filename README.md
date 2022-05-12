@@ -51,7 +51,6 @@ estos son los pasos para armar el circuito:
 
 6. Nuestro primer surgió cuando el circuito de luces ya programado se saltaba los led de color verde y azul, revisamos el codigo sin ningun exito, tras solicirtar ayuda llegamos a la fuente del problema, las luces led estaban conectadas a pines equivocados, problema que nos mantuvo parados por un largo tiempo
 
-
 ![texto descripción de la foto](imagenes/pin-leds.jpeg)
 
 7. Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
@@ -76,7 +75,7 @@ estos son los pasos para armar el circuito:
 
 el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
 
-este código está basado en los ejemplos de Arduino blabla y en los ejemplos de las clases 04: y 07:  en los enlaces [bla](blabla) y [bla](blabla).
+este código está basado en el trabajo de nuestro profesor [aarón Montoya](https://github.com/montoyamoraga) y en el ejemplo de semáforo su [clase 04: comunicación seial](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-04) y 07: 
 
 primero creamos las variables blabla para almacenar valores para blabla. la variabla bla es análoga en el rango blabla y la variable blabla es digital y tiene valores posibles 0 y 1.
 
