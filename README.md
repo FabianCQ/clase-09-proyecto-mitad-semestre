@@ -49,6 +49,8 @@ para incluir imágenes que sean visibles en este documento, es igual que un enla
 
 a continuación les dejo un breve borrador con ejemplos, que si completan, tendrán todos los puntos de la pauta, suerte!
 
+
+
 # proyecto audiovisual / villancico con luces de navidad
 
 ## acerca de
@@ -70,7 +72,30 @@ los materiales son:
 
 ## armado de circuito
 
-estos son los pasos para armar el circuito.
+estos son los pasos para armar el circuito:
+
+
+Conectamos el dispositivo Arduino 1 al puerto USB  del computador 
+Dividimos el trabajo en dos partes, la sección luces y la sección melodia 
+Investigamos acerca de la melodía y cómo codificarla, concluimos en que la melodía consta de 5 notas a las que cada una le corresponderá un color de led
+
+![texto descripción de la foto](imagenes/jinglebells.jpeg)
+
+* amarillo es la nota
+* rojo es 
+* azul 
+* blanco 
+
+Buscamos referentes de códigos que podrían sernos útiles para ambas partes 
+Seleccionamos el código de semáforo y lo modificamos,  aumentando  la cantidad de luces led de 3 a 5, agregando el color azul y blanco 
+Nuestro primer surgió cuando el circuito de luces ya programado se saltaba los led de color verde y azul, revisamos el codigo sin ningun exito, tras solicirtar ayuda llegamos a la fuente del problema, las luces led estaban conectadas a pines equivocados, problema que nos mantuvo parados por un largo tiempo
+Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
+En primer lugar buscamos la partitura de la melodía Jingle Bells
+Posteriormente buscamos el código de notas para arduino
+ Luego se tradujo cada nota de la melodía en su notación en arduino 
+Se definieron los tiempo de duración de cada nota en base a las notas de menor y mayor duración, rango de 8 unidades
+Condicionamos el encendido específico de cada luz a una nota específica de la melodia segun la funcion if() en arduino 
+
 
 primero hacemos X y se ve así.
 
@@ -84,7 +109,7 @@ después hacemos Y y se ve así.
 
 el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
 
-este código está basado en los ejemplos de Arduino blabla y en los ejemplos de esta clase en los enlaces [bla](blabla) y [bla](blabla).
+este código está basado en los ejemplos de Arduino blabla y en los ejemplos de las clases 04: y 07:  en los enlaces [bla](blabla) y [bla](blabla).
 
 primero creamos las variables blabla para almacenar valores para blabla. la variabla bla es análoga en el rango blabla y la variable blabla es digital y tiene valores posibles 0 y 1.
 
