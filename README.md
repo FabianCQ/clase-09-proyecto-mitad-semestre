@@ -80,10 +80,7 @@ estos son los pasos para armar el circuito:
 2. Dividimos el trabajo en dos partes, la sección luces y la sección melodia 
 
 3. Investigamos acerca de la melodía y cómo codificarla, concluimos en que la melodía consta de 5 notas a las que cada una le corresponderá un color de led
-
-![texto descripción de la foto](imagenes/jinglebells.jpeg)
-
-  * la luz roja es la nota DO6
+  - la luz roja es la nota DO6
   *   la luz amarilla es la nota SOL5
   *   la luz verde es la nota RE6
   *   la luz azul es la nota SI5
