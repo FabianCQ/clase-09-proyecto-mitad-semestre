@@ -56,19 +56,20 @@ estos son los pasos para armar el circuito:
 
 7. Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
 
-![texto descripción de la foto](imagenes/final.jpeg)
 
 
 
-En primer lugar buscamos la partitura de la melodía Jingle Bells
 
-Posteriormente buscamos el código de notas para arduino
+* En primer lugar buscamos la partitura de la melodía Jingle Bells
 
-Luego se tradujo cada nota de la melodía en su notación en arduino 
+* Posteriormente buscamos el código de notas para arduino
 
-Se definieron los tiempo de duración de cada nota en base a las notas de menor y mayor duración, rango de 8 unidades
+* Luego se tradujo cada nota de la melodía en su notación en arduino 
 
-Condicionamos el encendido específico de cada luz a una nota específica de la melodia segun la funcion if() en arduino 
+* Se definieron los tiempo de duración de cada nota en base a las notas de menor y mayor duración, rango de 8 unidades
+![texto descripción de la foto](imagenes/notas.jpeg)
+
+* Condicionamos el encendido específico de cada luz a una nota específica de la melodia segun la funcion if() en arduino 
 
 
 ## código para microcontrolador Arduino
