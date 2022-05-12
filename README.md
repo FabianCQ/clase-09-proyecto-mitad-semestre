@@ -57,7 +57,7 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 
 este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.
 
-los integrantes son Antonia Ramírez A., Fabián Campos Q. y Cristina Chamorro R.
+Los integrantes son **Cristina Chamorro, Fabián Campos y Antonia Ramírez.** El objetivo de este es crear un juego de luces a partir de la melodía navideña “Jingle Bells” coordinando así las luces con las respectivas notas de esta melodía, respetando los tiempos de cada nota y asignándoles un LED de color, logrando imitar lo que serian las luces de un árbol de navidad por medio del Arduino.
 
 ## lista de materiales
 
