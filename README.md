@@ -59,6 +59,7 @@ estos son los pasos para armar el circuito:
 ![texto descripción de la foto](imagenes/final.jpeg)
 
 
+
 En primer lugar buscamos la partitura de la melodía Jingle Bells
 
 Posteriormente buscamos el código de notas para arduino
