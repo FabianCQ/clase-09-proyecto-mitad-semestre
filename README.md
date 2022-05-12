@@ -83,29 +83,32 @@ estos son los pasos para armar el circuito:
 
 ![texto descripción de la foto](imagenes/jinglebells.jpeg)
 
-* amarillo es la nota
-* rojo es 
-* azul 
-* blanco 
+* la luz roja es la nota DO6
+* la luz amarilla es la nota SOL5
+* la luz verde es la nota RE6
+* la luz azul es la nota SI5
+* la luz blanca es la nota LA5
 
-Buscamos referentes de códigos que podrían sernos útiles para ambas partes 
-Seleccionamos el código de semáforo y lo modificamos,  aumentando  la cantidad de luces led de 3 a 5, agregando el color azul y blanco 
-Nuestro primer surgió cuando el circuito de luces ya programado se saltaba los led de color verde y azul, revisamos el codigo sin ningun exito, tras solicirtar ayuda llegamos a la fuente del problema, las luces led estaban conectadas a pines equivocados, problema que nos mantuvo parados por un largo tiempo
-Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
+4. Buscamos referentes de códigos que podrían sernos útiles para ambas partes 
+
+5. Seleccionamos el código de semáforo y lo modificamos,  aumentando  la cantidad de luces led de 3 a 5, agregando el color azul y blanco 
+
+6. Nuestro primer surgió cuando el circuito de luces ya programado se saltaba los led de color verde y azul, revisamos el codigo sin ningun exito, tras solicirtar ayuda llegamos a la fuente del problema, las luces led estaban conectadas a pines equivocados, problema que nos mantuvo parados por un largo tiempo
+
+7. Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
+
+
+
 En primer lugar buscamos la partitura de la melodía Jingle Bells
+
 Posteriormente buscamos el código de notas para arduino
- Luego se tradujo cada nota de la melodía en su notación en arduino 
+
+Luego se tradujo cada nota de la melodía en su notación en arduino 
+
 Se definieron los tiempo de duración de cada nota en base a las notas de menor y mayor duración, rango de 8 unidades
+
 Condicionamos el encendido específico de cada luz a una nota específica de la melodia segun la funcion if() en arduino 
 
-
-primero hacemos X y se ve así.
-
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
-
-después hacemos Y y se ve así.
-
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
 
 ## código para microcontrolador Arduino
 
