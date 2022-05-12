@@ -83,11 +83,11 @@ estos son los pasos para armar el circuito:
 
 ![texto descripción de la foto](imagenes/jinglebells.jpeg)
 
-* la luz roja es la nota DO6
-* la luz amarilla es la nota SOL5
-* la luz verde es la nota RE6
-* la luz azul es la nota SI5
-* la luz blanca es la nota LA5
+ * la luz roja es la nota DO6
+ * la luz amarilla es la nota SOL5
+ * la luz verde es la nota RE6
+ * la luz azul es la nota SI5
+ * la luz blanca es la nota LA5
 
 4. Buscamos referentes de códigos que podrían sernos útiles para ambas partes 
 
