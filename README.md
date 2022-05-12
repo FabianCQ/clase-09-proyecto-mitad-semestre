@@ -75,9 +75,11 @@ los materiales son:
 estos son los pasos para armar el circuito:
 
 
-Conectamos el dispositivo Arduino 1 al puerto USB  del computador 
-Dividimos el trabajo en dos partes, la sección luces y la sección melodia 
-Investigamos acerca de la melodía y cómo codificarla, concluimos en que la melodía consta de 5 notas a las que cada una le corresponderá un color de led
+1. Conectamos el dispositivo Arduino 1 al puerto USB  del computador 
+
+2. Dividimos el trabajo en dos partes, la sección luces y la sección melodia 
+
+3. Investigamos acerca de la melodía y cómo codificarla, concluimos en que la melodía consta de 5 notas a las que cada una le corresponderá un color de led
 
 ![texto descripción de la foto](imagenes/jinglebells.jpeg)
 
