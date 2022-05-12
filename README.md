@@ -9,7 +9,7 @@ los integrantes de este proyecto son
 * Fabián Campos
 * Antonia Ramírez
 
-*este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.*
+*este proyecto fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.*
 
 ## lista de materiales
 
