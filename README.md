@@ -51,13 +51,13 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 
 
 
-# proyecto audiovisual / villancico con luces de navidad
+# **proyecto audiovisual / villancico con luces de navidad**
 
 ## acerca de
 
 este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.
 
-Los integrantes son **Cristina Chamorro, Fabián Campos y Antonia Ramírez.** El objetivo de este es crear un juego de luces a partir de la melodía navideña “Jingle Bells” coordinando así las luces con las respectivas notas de esta melodía, respetando los tiempos de cada nota y asignándoles un LED de color, logrando imitar lo que serian las luces de un árbol de navidad por medio del Arduino.
+los integrantes son **Cristina Chamorro, Fabián Campos y Antonia Ramírez.** El objetivo de este es crear un juego de luces a partir de la melodía navideña “Jingle Bells” coordinando así las luces con las respectivas notas de esta melodía, respetando los tiempos de cada nota y asignándoles un LED de color, logrando imitar lo que serian las luces de un árbol de navidad por medio del Arduino.
 
 ## lista de materiales
 
@@ -83,7 +83,7 @@ estos son los pasos para armar el circuito:
 
 ![texto descripción de la foto](imagenes/jinglebells.jpeg)
 
-  *   la luz roja es la nota DO6
+  * la luz roja es la nota DO6
   *   la luz amarilla es la nota SOL5
   *   la luz verde es la nota RE6
   *   la luz azul es la nota SI5
