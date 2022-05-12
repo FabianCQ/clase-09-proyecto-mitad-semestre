@@ -80,6 +80,9 @@ estos son los pasos para armar el circuito:
 2. Dividimos el trabajo en dos partes, la sección luces y la sección melodia 
 
 3. Investigamos acerca de la melodía y cómo codificarla, concluimos en que la melodía consta de 5 notas a las que cada una le corresponderá un color de led
+  
+![texto descripción de la foto](imagenes/jinglebells.jpeg)
+  
   - la luz roja es la nota DO6
   *   la luz amarilla es la nota SOL5
   *   la luz verde es la nota RE6
@@ -88,9 +91,16 @@ estos son los pasos para armar el circuito:
 
 4. Buscamos referentes de códigos que podrían sernos útiles para ambas partes 
 
-5. Seleccionamos el código de semáforo y lo modificamos,  aumentando  la cantidad de luces led de 3 a 5, agregando el color azul y blanco 
+![texto descripción de la foto](imagenes/arrays.png)
+
+5. Seleccionamos el código de semáforo de la clase 04 y lo modificamos,  aumentando  la cantidad de luces led de 3 a 5, agregando el color azul y blanco 
+
+![texto descripción de la foto](imagenes/luces.jpeg)
 
 6. Nuestro primer surgió cuando el circuito de luces ya programado se saltaba los led de color verde y azul, revisamos el codigo sin ningun exito, tras solicirtar ayuda llegamos a la fuente del problema, las luces led estaban conectadas a pines equivocados, problema que nos mantuvo parados por un largo tiempo
+
+
+![texto descripción de la foto](imagenes/pin-leds.jpeg)
 
 7. Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
 
