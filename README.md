@@ -60,6 +60,13 @@ estos son los pasos para armar el circuito:
 
 ![texto descripción de la foto](imagenes/final.jpeg)
 
+## código para microcontrolador Arduino
+
+el código está hecho para Arduino Uno, y está incluido en este repositorio [aquí](https://github.com/FabianCQ/clase-09-proyecto-mitad-semestre/blob/main/codigo_arduino/codigo_arduino.ino)
+
+este código está basado en el trabajo de nuestro profesor [aarón montoya](https://github.com/montoyamoraga) y en el ejemplo de semáforo de la [clase 04](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-04) y la [clase 07](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-07) sobre entrada y salida MIDI
+
+
 * En primer lugar se buscó la partitura de la melodía *Jingle Bells*
 
 * Se identifican 5 tipos distintos de notas musicales que componen una melodía de 26 notas
@@ -97,13 +104,6 @@ estos son los pasos para armar el circuito:
 * Se especifíca la función de encendido de luces según el color designado y el tiempo que dura encendida, por función void prenderLuz(int color, int tiempoEncendido), definiendo la variable delay(tiempoEncendido), así como el color y su estado de encendido, por digitalWrite(color, HIGH)
 
 * Se especifíca la funcion de apagado de cada luz por pin de salida según función digitalWrite(pinCOLOR, LOW)
-
-## código para microcontrolador Arduino
-
-el código está hecho para Arduino Uno, y está incluido en este repositorio [aquí](https://github.com/FabianCQ/clase-09-proyecto-mitad-semestre/blob/main/codigo_arduino/codigo_arduino.ino)
-
-este código está basado en el trabajo de nuestro profesor [aarón montoya](https://github.com/montoyamoraga) y en el ejemplo de semáforo de la [clase 04](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-04) y la [clase 07](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-07) sobre entrada y salida MIDI
-
 
 ## conclusiones
 
