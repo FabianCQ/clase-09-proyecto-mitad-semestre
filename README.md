@@ -44,6 +44,7 @@ estos son los pasos para armar el circuito:
 4. Buscamos referentes de códigos que podrían sernos útiles para ambas partes 
 
 ![texto descripción de la foto](imagenes/arrays.png)
+*esto pertenece a [JuegosRobótica.es](https://juegosrobotica.es/musica-con-arduino/#)
 
 5. Seleccionamos el código de semáforo de la clase 04 y lo modificamos,  aumentando  la cantidad de luces led de 3 a 5, agregando el color azul y blanco 
 
