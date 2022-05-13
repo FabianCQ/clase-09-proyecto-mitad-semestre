@@ -73,7 +73,7 @@ estos son los pasos para armar el circuito:
 
 ## código para microcontrolador Arduino
 
-el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
+el código está hecho para Arduino Uno, y está incluido en este repositorio [aquí](https://github.com/FabianCQ/clase-09-proyecto-mitad-semestre/blob/main/codigo_arduino/codigo_arduino.ino).
 
 este código está basado en el trabajo de nuestro profesor [aarón montoya](https://github.com/montoyamoraga) y en el ejemplo de semáforo de la [clase 04](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-04) y la [clase 07](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-07) sobre entrada y salida MIDI
 
