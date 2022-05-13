@@ -24,8 +24,9 @@ los materiales son:
 
 ## armado de circuito
 
-estos son los pasos para armar el circuito:
+![texto descripción de la foto](imagenes/circuito.jpeg)
 
+estos son los pasos para armar el circuito:
 
 1. Conectamos el dispositivo Arduino 1 al puerto USB  del computador 
 
@@ -56,10 +57,6 @@ estos son los pasos para armar el circuito:
 ![texto descripción de la foto](imagenes/pin-leds.jpeg)
 
 7. Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
-
-
-
-
 
 * En primer lugar buscamos la partitura de la melodía Jingle Bells
 
