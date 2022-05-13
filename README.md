@@ -32,7 +32,7 @@ estos son los pasos para armar el circuito:
 
 2. Dividimos el trabajo en dos partes, la sección luces y la sección melodia 
 
-3. Investigamos acerca de la melodía y cómo codificarla, concluimos en que la melodía consta de 5 notas a las que cada una le corresponderá un color de led
+3. Investigamos acerca de la melodía y cómo codificarla, concluimos en que la melodía consta de 5 notas a las que cada una le corresponderá un color de LED
   
 ![texto descripción de la foto](imagenes/jinglebells.jpeg)
   
@@ -60,18 +60,43 @@ estos son los pasos para armar el circuito:
 
 ![texto descripción de la foto](imagenes/final.jpeg)
 
-* En primer lugar buscamos la partitura de la melodía *Jingle Bells*
+* En primer lugar se buscó la partitura de la melodía *Jingle Bells*
 
-* Posteriormente buscamos el código de notas para arduino
+* Se identifican 5 tipos distintos de notas musicales que componen una melodía de 26 notas
 
-* Luego se tradujo cada nota de la melodía en su notación en arduino 
+* Posteriormente se buscó el código de 26 notas musicales en el lenguaje de Arduino
 
-* Se definieron los tiempo de duración de cada nota en base a las notas de menor y mayor duración, rango de 8 unidades
+* Luego se tradujo cada nota de la melodía en su notación en Arduino como variable de int melodía[]
+
+* Se definieron los tiempo de duración de cada nota en base a la variable int duraciones[] considerando el valor de una corchea como 8 unidades
+
+* Se define un multiplicador del doble del tiempo de duración de las notas como variable int multiplicadorDuracion[]
+
+* Se define la pausa entre notas por variable float multiplicadorPausa del mismo valor que su multiplicador de duración
+
+* Se define en el código la salida del sonido por el parlante con la variable int pinParlante sobre la entrada 8 del equipo de Arduino
 
 ![texto descripción de la foto](imagenes/notas.jpeg)
 
-* Condicionamos el encendido específico de cada luz a una nota específica de la melodia segun la funcion if() en arduino 
+* Se establece el void setup() de la reproducción de la música bajo la función for(int nota = X; nota < Y; nota++), indicando el inicio y final de la reproducción desde la nota 0 a la nota 26 por orden consecutivo
 
+* Se establece por función tone() la frecuencia y duración de las notas, así como el pin de salida, para su reproducción según las variables establecidas
+
+* Se define a duración de las notas de la melodía en milisegundos por la función int duracionNota = 1000/(duraciones[] * multiplicadorDuración)
+
+* Se define las pausas entre notas de la melodía en milisegundos como delay(pausa) determinado por la función int pausa = duracionNota * multiplicadorPausa
+
+* Se condiciona el encendido específico de cada luz al momento que suena un tipo de nota específico de la melodía, asignando un color de las 5 luces a uno de los 5 tipos de notas de la melodía, según la funcion if() {else if(){...}}
+
+* Se establece el inicio de la comunicación serial de las luces por función Serial.beging(9600)
+
+* Se configura las salidas para el puerto del Arduino que se comunicaran con cada luz LED por la función pinMode(pinCOLOR, OUTPUT)
+
+* Se finaliza el void setup() y se ignora el void loop()
+
+* Se especifíca la función de encendido de luces según el color designado y el tiempo que dura encendida, por función void prenderLuz(int color, int tiempoEncendido), definiendo la variable delay(tiempoEncendido), así como el color y su estado de encendido, por digitalWrite(color, HIGH)
+
+* Se especifíca la funcion de apagado de cada luz por pin de salida según función digitalWrite(pinCOLOR, LOW)
 
 ## código para microcontrolador Arduino
 
@@ -87,8 +112,8 @@ en este proyecto tuvimos los siguientes aprendizajes:
 * botón pulsador
 * circuito para 
 
-lo más difícil de este proyecto fue bla.
+lo más difícil de este proyecto fue --.
 
 cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
 
-este proyecto lo vemos como la base para lograr bla, nos hace pensar en bla, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
+este proyecto lo vemos como la base para lograr --, nos hace pensar en --, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
