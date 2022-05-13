@@ -107,13 +107,15 @@ este código está basado en el trabajo de nuestro profesor [aarón montoya](htt
 
 ## conclusiones
 
-en este proyecto tuvimos los siguientes aprendizajes: 
+en este proyecto tuvimos los siguientes aprendizajes:
 
-* botón pulsador
-* circuito para 
+* circuito para luces
+* circuito con salida de sonido
+* programación de melodía y luces coordinadas
 
-lo más difícil de este proyecto fue --.
+lo más difícil de este proyecto fue sin duda el traducir y calzar los tiempos de la la melodía al arduino ya que era un ejercicio de mayor complejidad comparado a lo que habíamos aprendido en clases anteriores, por otro lado el segundo desafío se nos presentó cuando debiamos  mezclar los dos aprendizajes adquiridos en las clases (programar  luces y la salida de audio) y convertirlo en uno, si bien ya habíamos resuelto las cosas por separado ahora fusionar  los códigos de la manera  correcta era la clave de nuestro éxito.
 
-cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
+los errores principales que cometimos fueron de redacción de código, si bien sabíamos cómo debía estar compuesto para que este funcionara, de igual manera se nos escapaban letras o puntos entre ellos error que retrasó un poco nuestro avance. Otro error que cometimos fue el no relacionar  el código con los pines del arduino y sin saber  que había un problema técnico de conexión buscamos errores dentro del código pero no tuvimos éxito.
 
-este proyecto lo vemos como la base para lograr --, nos hace pensar en --, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
+Finalmente este proyecto hizo darnos cuenta de los circuitos que están detrás de los objetos que uno utiliza comúnmente como pueden ser las luces de navidad o un timbre de casa, imaginamos además que en un futuro se podría utilizar para realizar juegos de luces para eventos masivos, fiestas o exposiciones y generar toda una experiencia inmersiva por medio de una  pantalla completa de luces y varios  arduinos que guíen la proyección y la música.
+
