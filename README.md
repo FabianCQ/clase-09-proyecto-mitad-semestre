@@ -24,7 +24,6 @@ los materiales son:
 
 ## armado de circuito
 
-![texto descripción de la foto](imagenes/circuito.png)
 
 estos son los pasos para armar el circuito:
 
