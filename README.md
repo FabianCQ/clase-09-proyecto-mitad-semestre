@@ -80,11 +80,6 @@ el código está hecho para Arduino Uno, y está incluido en este repositorio [a
 
 este código está basado en el trabajo de nuestro profesor [aarón montoya](https://github.com/montoyamoraga) y en el ejemplo de semáforo de la [clase 04](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-04) y la [clase 07](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-07) sobre entrada y salida MIDI
 
-primero creamos las variables blabla para almacenar valores para blabla. la variabla bla es análoga en el rango blabla y la variable blabla es digital y tiene valores posibles 0 y 1.
-
-primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z sea salida digital, y abrimos la comunicación serial.
-
-luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
 
 ## conclusiones
 
