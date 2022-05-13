@@ -58,7 +58,9 @@ estos son los pasos para armar el circuito:
 
 7. Con ese problema resuelto tenemos las luces listas para ser mezcladas con la melodía 
 
-* En primer lugar buscamos la partitura de la melodía Jingle Bells
+![texto descripción de la foto](imagenes/final.jpeg)
+
+* En primer lugar buscamos la partitura de la melodía *Jingle Bells*
 
 * Posteriormente buscamos el código de notas para arduino
 
