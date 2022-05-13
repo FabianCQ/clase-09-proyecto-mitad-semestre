@@ -68,7 +68,7 @@ estos son los pasos para armar el circuito:
 * Luego se tradujo cada nota de la melodía en su notación en arduino 
 
 * Se definieron los tiempo de duración de cada nota en base a las notas de menor y mayor duración, rango de 8 unidades
-* 
+
 ![texto descripción de la foto](imagenes/notas.jpeg)
 
 * Condicionamos el encendido específico de cada luz a una nota específica de la melodia segun la funcion if() en arduino 
